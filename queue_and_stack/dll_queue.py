@@ -188,8 +188,8 @@ class Queue:
             return
         else:
             self.size -= 1
-            value = self.storage.remove_from_head()
-        return value
+            value = = self.storage.remove_from_head()
+            return value
 
     def len(self):
         return self.size
